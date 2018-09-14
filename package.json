@@ -1,0 +1,17 @@
+{
+    "name": "gd-id-generate",
+    "version": "1.0.0",
+    "description": "分布式id本地生成组件",
+    "main": "./bin/index.js",
+    "types": "./bin/index.d.ts",
+    "scripts": {
+        "node-install": "npm install",
+        "complie": "tsc -W false",
+        "tsc-test": "tsc --project ./test"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^10.9.4"
+    }
+}
